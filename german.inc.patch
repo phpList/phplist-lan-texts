@@ -1,0 +1,81 @@
+--- german.inc.orig	2012-11-02 19:58:04.000000000 +0100
++++ german.inc	2013-11-07 11:17:16.641784784 +0100
+@@ -8,7 +8,7 @@
+ $strEmail               = 'E-Mail';
+ $strTown                = 'Wohnort';
+ $strPostcode            = 'Postfach';
+-$strSubscribeInfo       = 'Zum Anmelden bei einer oder mehreren unserer Mailinglisten benützen Sie das nachfolgende Formular!';
++$strSubscribeInfo       = 'Zum Anmelden bei einer oder mehreren unserer Mailinglisten benutzen Sie das nachfolgende Formular!';
+ $strRequired            = 'Benötigte Felder in rot';
+ $strSubscribeTitle      = 'Anmelden bei der Mailingliste';
+ $strPleaseSelect        = 'Bitte wählen Sie eine oder mehrere Listen, bei denen Sie sich anmelden wollen';
+@@ -24,23 +24,23 @@
+ #$strThanks              = 'Liebe/lieber [FIRST NAME], <br/>Danke, dass sie sich für unsere Listen angemeldet haben.';
+ $strThanks              = 'Danke für die Anmeldung bei unseren Listen.';
+ # the EmailConfirmation message can contain placeholders
+-#$strEmailConfirmation   = 'Ihre email [email] ist zu unserem System hinzugefügt worden. Sie bekommen in kürze eine Email mit der Bestätigung der Listen, für welche sie sich angemeldet haben.';
+-$strEmailConfirmation   = 'Sie erhalten in kürze eine E-Mail mit der Bestätigung der Listen bei denen Sie sich angemeldet haben.';
+-$strEmailFailed         = 'Entschuldigung, aber die E-Mail mit der Bestätigungsanfrage wurde nicht versandt, bitte drüken Sie „Aktualisieren“ und versuchen Sie es nochmals.';
++#$strEmailConfirmation   = 'Ihre E-mail [email] ist zu unserem System hinzugefügt worden. Sie bekommen in Kürze eine E-Mail mit der Bestätigung der Listen, für welche sie sich angemeldet haben.';
++$strEmailConfirmation   = 'Sie erhalten in Kürze eine E-Mail mit der Bestätigung der Listen bei denen Sie sich angemeldet haben.';
++$strEmailFailed         = 'Entschuldigung, aber die E-Mail mit der Bestätigungsanfrage wurde nicht versandt, bitte drücken Sie „Aktualisieren“ und versuchen Sie es nochmals.';
+ $strUnsubscribeTitle    = 'Abmelden von unseren Mailinglisten';
+-$strUnsubscribeDone     = 'Sie wurden von den Mailinglisten, die Sie ausgewählt haben, abgemeldet - eine Bestätigung erhalten Sie in kürze per E-Mail.';
++$strUnsubscribeDone     = 'Sie wurden von den Mailinglisten, die Sie ausgewählt haben, abgemeldet - eine Bestätigung erhalten Sie in Kürze per E-Mail.';
+ $strBack                = 'Zurück';
+ $strUnsubscribeInfo     = 'Abmelden von einer oder mehreren unserer Mailinglisten';
+ $strContinü            = 'Weiter';
+ $strUnsubscribeSelect   = 'Bitte wählen Sie die Listen von denen Sie sich abmelden wollen';
+ $strAllLists            = 'Alle Listen';
+ $strNoLists             = 'Keine von diesen';
+-$strUnsubscribeReqüstForReason = 'Wir bedaürn die Abmeldung unseres Newsletters. Es würde uns helfen, wenn Sie den Grund angeben könnten:';
++$strUnsubscribeRequestForReason = 'Wir bedauern die Abmeldung unseres Newsletters. Es würde uns helfen, wenn Sie den Grund angeben könnten:';
+ $strUnsubscribeFinalInfo = '<br/><b>Bitte beachten</b>: diese Seite dient dazu, unseren Newsletter <b>endgültig</b> abzumelden. Falls Sie Ihre E-Mail Adresse oder die Auswahl des Newsletters ändern möchten, ändern Sie bitte Ihre <a href="[PREFERENCESURL]">Voreinstellungen</a>';
+ $strNoListsFound        = 'Sie wurden mit dieser E-Mail bei keiner unserer Mailinglisten angemeldet';
+ $strResubmit            = 'Erneut versuchen';
+ $strUnsubscribeSubmit   = 'Abmelden von den gewählten Mailinglisten';
+-$strValüsMissing       = 'Die folgenden benötigten Felder fehlen';
++$strValuesMissing       = 'Die folgenden benötigten Felder fehlen';
+ $strConfirmInfo         = 'Danke für die Bestätigung. Sie wurden auf folgenden Listen eingeschrieben:';
+ $strConfirmTitle        = 'Bestätigungsseite';
+ $strUserNotFound        = 'User nicht gefunden';
+@@ -54,15 +54,15 @@
+ $strPreferencesTitle    = 'Einstellungen ändern';
+ $strPreferencesInfo     = 'Bitte bestätigen Sie, dass die folgenden Informationen korrekt sind und drücken Sie den Update-Button';
+ $strUpdatePreferences   = 'Update';
+-$strPreferencesEmailChanged = 'Ihre E-Mail wurde geändert. Bitte besuchen Sie den Link, welcher in der E-Mail genannt wird, die Sie an Ihre neü Adresse erhalten.';
++$strPreferencesEmailChanged = 'Ihre E-Mail wurde geändert. Bitte besuchen Sie den Link, welcher in der E-Mail genannt wird, die Sie an Ihre neue Adresse erhalten.';
+ $strYouAreBlacklisted  = 'Ihre E-Mail Adresse ist in unserer "Black List" - das heisst, Sie möchten keine Newsletter mehr. <br/>
+-Um wieder Newsletter E-Mails zu empfangen, müsste der Administrator manüll eingreifen. Bitte kontaktieren Sie den Webmaster explizit mit der Anfrage, den Newsletter wieder zu empfangen, und Sie werden von der "Black List" entfernt.';
+-$strPreferencesNotificationSent = 'Sie werden eine E-Mail mit den änderungen erhalten';
+-$strPreferencesUpdated = 'Danke für Ihre änderungen. Wir haben Ihre Informationen aktualisiert.';
++Um wieder Newsletter E-Mails zu empfangen, müsste der Administrator manuell eingreifen. Bitte kontaktieren Sie den Webmaster explizit mit der Anfrage, den Newsletter wieder zu empfangen, und Sie werden von der "Black List" entfernt.';
++$strPreferencesNotificationSent = 'Sie werden eine E-Mail mit den Änderungen erhalten';
++$strPreferencesUpdated = 'Danke für Ihre Änderungen. Wir haben Ihre Informationen aktualisiert.';
+ $strClickHere          = 'Drücken Sie hier';
+ $strThisLink           = 'dieser Link';
+-$strToUnsubscribe      = 'Um sich aus der Liste auszutragen, besuchen Sie';
+-$strToUpdate           = 'Um Ihre Einstellungen zu ändern, besuchen Sie';
++$strToUnsubscribe      = 'Um sich aus der Liste auszutragen besuchen Sie';
++$strToUpdate           = 'Um Ihre Einstellungen zu ändern besuchen Sie';
+ $strSendHTML           = 'Sende HTML E-Mail';
+ $strYes                = 'Ja';
+ $strNo                 = 'Nein';
+@@ -70,7 +70,7 @@
+ $strAllMailinglists    = 'Alle Mailinglisten';
+ $strAttachmentIntro    = 'Diese Nachricht beinhaltet Anhänge, die mit einem Webbrowser betrachtet werden können:';
+ $strLocation           = 'Ort';
+-$strFreqüncy          = 'Wie oft dürfen wir Ihnen Nachrichten senden';
++$strFrequency          = 'Wie oft dürfen wir Ihnen Nachrichten senden';
+ $strHourly             = 'Stündlich';
+ $strDaily              = 'Täglich';
+ $strWeeklym            = 'Wöchentlich';
+@@ -109,7 +109,7 @@
+ $strForwardSubtitle         = 'Weiterleiten mit Betreff ';
+ $strForwardEnterEmail       = 'Bitte eine gültige E-Mail für die Weiterleitung angeben';
+ $strForwardInvalidEmail     = '%s ist keine gültige E-Mail Adresse';
+-$strForwardBlacklistedEmail = 'Empfäger lehnt E-Mails von diesem System ab.';
++$strForwardBlacklistedEmail = 'Empfänger lehnt E-Mails von diesem System ab.';
+ $strForwardEnterEmails      = 'Bitte tragen Sie eine maximale Anzahl von %s gültigen E-Mail Adressen zur Weiterleitung in diese Feld ein (eine pro Zeile)';
+ $strForwardPersonalNote     = 'Sie können eine Textnachricht (maximal %d Zeichen) eingeben, die der weitergeleiteten E-Mail vorangestellt werden';
+ $strForwardSuccessInfo      = 'Diese Nachricht wurde weitergeleitet';
