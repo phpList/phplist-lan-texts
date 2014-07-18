@@ -74,3 +74,4 @@ $strChoosePassword      = 'Por favor, escriba una contrase&ntilde;a';
 $strConfirmPassword    = 'Confirme su contrase&ntilde;a';
 $strUnsubscribeRequestForReason = 'Lamentamos que no desee recibir m&aacute;s nuestras listas. Si desea decirnos la raz&oacute;n por favor escriba en el siguiente formulario:';
 $strUnsubscribeFinalInfo = '<br><b>Atenci&oacute;n</b>: esta p&aacute;gina es para <b>dejar de recibir</b> nuestros mensajes. Si desea cambiar su correo o sus subscripciones, por favor <a href="[PREFERENCESURL]">actualice sus datos</a>.';
+$strYouAreBlacklisted = 'Su dirección de correo está en nuestra lista de "no enviar mensajes".
