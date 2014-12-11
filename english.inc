@@ -45,6 +45,7 @@ $strResubmit            = 'Re-submit';
 $strUnsubscribeSubmit   = 'Unsubscribe from the selected newsletters';
 $strValuesMissing       = 'The following required values are missing';
 $strConfirmInfo         = 'Thank you for confirming your subscription to our newsletters. The newsletters you are subscribed to are listed below';
+$strAlreadyConfirmed    = 'We already received your confirmation previously.';
 $strConfirmTitle        = 'phpList membership confirmation page';
 $strUserNotFound        = 'Subscriber not found';
 $strUserAlreadyInitialised = 'Sorry, your password has already been set';
