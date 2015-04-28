@@ -6,10 +6,10 @@ $strCharSet             = 'UTF-8';
 $strLancode             = 'pt'; ## two letter iso code
 $strLandir              = 'ltr'; ## language direction (ltr or rtl)
 $strName                = 'Nome';
+$strEmail               = 'Endereço de email';
 $strAddress             = 'Morada';
-$strEmail               = 'Correio Electrónico';
 $strTown                = 'Localidade';
-$strPostcode            = 'Código Postal';
+$strPostcode            = 'Código postal';
 $strSubscribeInfo       = 'Use o formulário abaixo para subscrever uma ou mais das nossas listas de distribuição';
 $strRequired            = 'campo obrigatório';
 $strSubscribeTitle      = 'Subscreva as nossas listas de distribuição';
@@ -17,20 +17,20 @@ $strPleaseSelect        = 'Por favor seleccione a(s) lista(s) que pretende subsc
 $strSubmit              = 'Subscreva as listas seleccionadas';
 $strNotAvailable        = 'Lamentamos, mas ainda não existem listas disponíveis.';
 $strEnterName           = 'Por favor insira o seu nome';
-$strEnterEmail          = 'Por favor introduza o seu endereço de correio electrónico';
+$strEnterEmail          = 'Por favor introduza o seu endereço de email';
 $strConfirmEmail        = 'Confirme o seu endereço de email';
-$strInvalidHostInEmail  = 'Lamentamos mas não conseguimos entregar correio electrónico no domínio indicado. Por favor certifique-se que introduziu correctamente o seu endereço de correio electrónico';
+$strInvalidHostInEmail  = 'Lamentamos mas não conseguimos entregar email no domínio indicado. Por favor certifique-se que introduziu correctamente o seu endereço de email';
 $strEnterList           = 'Por favor seleccione a lista que pretende subscrever';
 $strPleaseEnter         = 'Por favor introduza';
 # the thanks message can contain placeholders
 #$strThanks              = 'Obrigado por subscrever a(s) nossa(s) listas de distribuição';
 $strThanks              = 'Estimado(a) [FIRST NAME], <br/>Obrigado por subscrever a(s) nossa(s) listas de distribuição';
 # the EmailConfirmation message can contain placeholders
-#$strEmailConfirmation   = 'O seu endereço de correio electrónico foi acrescentado ao nosso sistema. Em breve receberá uma mensagem com a confirmação da(s) lista(s) que subscreveu. Por favor certifique-se que clica no endereço enviado nessa mensagem para confirmar a sua subscrição.';
-$strEmailConfirmation   = 'O seu endereço de correio electrónico [email] foi acrescentado ao nosso sistema. Em breve receberá uma mensagem com a confirmação da(s) lista(s) que subscreveu. Por favor certifique-se que clica no endereço enviado nessa mensagem para confirmar a sua subscrição.';
-$strEmailFailed      = 'Lamentamos mas não conseguimos enviar-lhe o correio electrónico solicitando a sua confirmação. Por favor clique no botão "<em>Reload</em>" ou "Refrescar" para tentar novamente.';
+#$strEmailConfirmation   = 'O seu endereço de email foi acrescentado ao nosso sistema. Em breve receberá uma mensagem com a confirmação da(s) lista(s) que subscreveu. Por favor certifique-se que clica no endereço enviado nessa mensagem para confirmar a sua subscrição.';
+$strEmailConfirmation   = 'O seu endereço de email [email] foi acrescentado ao nosso sistema. Em breve receberá uma mensagem com a confirmação da(s) lista(s) que subscreveu. Por favor certifique-se que clica no endereço enviado nessa mensagem para confirmar a sua subscrição.';
+$strEmailFailed      = 'Lamentamos mas não conseguimos enviar-lhe o email solicitando a sua confirmação. Por favor clique no botão "<em>Reload</em>" ou "Refrescar" para tentar novamente.';
 $strUnsubscribeTitle    = 'Cancelar a sua subscrição da(s) nossa(s) lista(s) de distribuição';
-$strUnsubscribeDone     = 'Procedemos ao cancelamento da sua subscrição da(s) lista(s) de distribuição seleccionada(s) e brevemente receberá uma confirmação por correio electrónico.';
+$strUnsubscribeDone     = 'Procedemos ao cancelamento da sua subscrição da(s) lista(s) de distribuição seleccionada(s) e brevemente receberá uma confirmação por email.';
 $strUnsubscribedNoConfirm = 'Procedemos ao cancelamento da sua subscrição da(s) lista(s) de distribuição seleccionada(s)';
 $strBack                = 'Voltar atrás';
 $strUnsubscribeInfo     = 'Cancelar a subscrição de uma ou várias das nossas listas de distribuição';
@@ -40,15 +40,15 @@ $strAllLists            = 'Todas as listas';
 $strNoLists             = 'Nenhuma das listas';
 $strUnsubscribeRequestForReason = 'É com tristeza que o vemos partir e que vemos que já não demonstra interesse nas nossas listas. Para nos ajudar a melhorar os nossos servi%ccedil;os ficariamos agradecidos se nos pudesse dizer a razão:';
 $strUnsubscribeFinalInfo = '<br/><b>Por favor note</b>: nesta página poderá cancelar a subscrição da(s) nossa(s) lista(s) de distribuição <b>permanentemente</b>. Se pretender alterar o seu email, ou alterar que lista(s) de subscrição deverá receber, por favor siga até <a href="[PREFERENCESURL]">alterar as suas preferências</a>';
-$strNoListsFound        = 'Lamentamos, mas este endereço de correio electrónico não se encontra nas bases de dados de assinantes de nenhuma das nossas listas.';
-$strResubmit            = 'Reenviar correio electrónico';
+$strNoListsFound        = 'Lamentamos, mas este endereço de email não se encontra nas bases de dados de assinantes de nenhuma das nossas listas.';
+$strResubmit            = 'Reenviar email';
 $strUnsubscribeSubmit   = 'Cancelar a subscrição da(s) lista(s) seleccionada(s).';
 $strValuesMissing       = 'Não preencheu os seguintes dados obrigatórios';
 $strConfirmInfo         = 'Obrigado pela confirmação da sua subscrição. A(s) lista(s) que subscreve encontra(m)-se listada(s) abaixo.';
 $strConfirmTitle        = 'Página de confirmação da subscrição';
 $strUserNotFound        = 'Assinante não encontrado';
 $strUserAlreadyInitialised = 'Lamentamos, mas a sua senha já foi definida';
-$strConfirmFailInfo     = 'Lamentamos, mas o seu pedido de confirmação não foi reconhecido. Certifique-se que usa a totalidade do endereço conforme este surge na mensagem de correio electrónico que lhe foi enviada. Por vezes, esse endereço é quebrado em duas linhas.';
+$strConfirmFailInfo     = 'Lamentamos, mas o seu pedido de confirmação não foi reconhecido. Certifique-se que usa a totalidade do endereço conforme este surge na mensagem de email que lhe foi enviada. Por vezes, esse endereço é quebrado em duas linhas.';
 $strPreferHTMLEmail     = 'Eu prefiro receber mensagens no formato HTML';
 $strPreferTextEmail     = 'Eu prefiro receber mensagens no formato Texto';
 $strPreferredFormat    = 'Formato preferido:';
@@ -57,15 +57,15 @@ $strHTML        = 'HTML';
 $strPreferencesTitle    = 'Actualize os seus dados';
 $strPreferencesInfo     = 'Por favor confirme se a informação abaixo está correcta e clique no botão "Actualizar".';
 $strUpdatePreferences   = 'Actualizar';
-$strPreferencesEmailChanged = 'O seu endereço de correio electrónico foi alterado. Por favor visite o endereço indicado na mensagem que vai receber por correio electrónico, para confirmar o seu novo endereço.';
+$strPreferencesEmailChanged = 'O seu endereço de email foi alterado. Por favor visite o endereço indicado na mensagem que vai receber por email, para confirmar o seu novo endereço.';
 $strYouAreBlacklisted = 'O seu email está registado na nossa "Lista Negra", o que significa que vecê nos pediu para que nunca mais lhe enviassemos emails.<br/>Para que possa receber emails novamente é necessária intervenço do administrador. Contact-nos dizendoo explicitamente que deseja tornar a receber os nossos boletins e será removido da "Lista Negra".';
-$strPreferencesNotificationSent = 'Receberá uma mensagem por correio electrónico contendo as alterações efectuadas.';
+$strPreferencesNotificationSent = 'Receberá uma mensagem por email contendo as alterações efectuadas.';
 $strPreferencesUpdated = 'Obrigado pela actualização. Os seus dados foram actualizados.';
 $strClickHere          = 'Clique aqui';
 $strThisLink           = 'esta ligação';
 $strToUnsubscribe      = 'Para cancelar a subscrição desta lista visite';
 $strToUpdate           = 'Para actualizar os seus dados visite';
-$strSendHTML           = 'Enviar correio electrónico em HTML';
+$strSendHTML           = 'Enviar email em HTML';
 $strYes                = 'Sim';
 $strNo                 = 'Não';
 $strUnsubscribe        = 'Cancelar subscrições';
@@ -94,19 +94,19 @@ $strPassword       = 'Senha';
 $strPassword2       = 'Confirmar senha';
 $strPasswordsNoMatch   = 'As senhas não condizem';
 $strEmailsNoMatch     = 'Os endereços de email não são iguais';
-$strInvalidPassword     = 'Erro: endereço de correio electrónico ou senha inválidos';
-$strPasswordSent      = 'A sua senha foi enviada para o seu endereço de correio electrónico. Deverá recebê-la dentro de momentos';
+$strInvalidPassword     = 'Erro: endereço de email ou senha inválidos';
+$strPasswordSent      = 'A sua senha foi enviada para o seu endereço de email. Deverá recebê-la dentro de momentos';
 $strPasswordRemindSubject = 'A sua senha para as nossas listas';
 $strPasswordRemindMessage = 'A sua senha é ';
-$strPasswordRemindInfo = 'Para receber a sua senha por correio electrónico, por favor introduza o seu endereço de correio electrónico e clique no botão "'.$strForgotPassword.'"';
+$strPasswordRemindInfo = 'Para receber a sua senha por email, por favor introduza o seu endereço de email e clique no botão "'.$strForgotPassword.'"';
 $strLogin         = 'Iniciar sessão';
-$strLoginTitle        = 'Por favor introduza o seu endereço de correio electrónico e senha';
-$strLoginInfo       = 'Esta página requer uma senha. Por favor introduza o seu endereço de correio electrónico e a senha';
+$strLoginTitle        = 'Por favor introduza o seu endereço de email e senha';
+$strLoginInfo       = 'Esta página requer uma senha. Por favor introduza o seu endereço de email e a sua senha';
 $strPersonalLocationInfo = '
   <p>Para aceder a esta página é necessária uma identificação pessoal que pode ser encontrada em cada mensagem que lhe enviamos.<br/>
-  Se clicou neste endereço <em>web</em> e se obteve este erro, por favor certifique-se que coloca a totalidade do endereço no seu <em>browser</em>. Por vezes, os programas de correio electrónico quebram este endereço em mais de uma linha.</p>
+  Se clicou neste endereço <em>web</em> e se obteve este erro, por favor certifique-se que coloca a totalidade do endereço no seu <em>browser</em>. Por vezes, os programas de email quebram este endereço em mais de uma linha.</p>
   <p>Se não conhece esse endereço <em>web</em>, pode solicitar o envio de uma mensagem que lho dará a conhecer.
-  Por favor introduza o seu endereço de correio electrónico no campo e clique "Continuar"
+  Por favor introduza o seu endereço de email no campo e clique "Continuar"
 ';
 $strPersonalLocationSent = '<h1>Sucesso! Deverá receber a mensagem com o seu endereço/URL pessoal dentro de momentos</h1>';
 $strUserExists   = '<br/>Já existe um utilizador com este email e os nossos registos contêm uma senha diferente';
