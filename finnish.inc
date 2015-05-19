@@ -83,6 +83,7 @@ $strPassword           = 'Salasana';
 $strPassword2           = 'Vahvista salasana';
 $strPasswordsNoMatch    = 'Annetut salasanat eivät täsmää';
 $strEmailsNoMatch     = 'Annetut sähköpostiosoitteet eivät täsmää';
+$strEmailNotValid    = 'Sähköpostiosoite on virheellinen';
 $strInvalidPassword     = 'Virhe! Virheellinen salasana tai sähköpostiosoite';
 $strPasswordSent        = 'Salasanasi on lähetetty sähköpostisoitteeseesi. Saat viestin muutaman minuutin päästä';
 $strPasswordRemindSubject = 'Salasanasi uutiskirjeeseen';
