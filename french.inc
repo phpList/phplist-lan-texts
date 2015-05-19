@@ -83,6 +83,7 @@ $strForgotPassword  = 'Mot de passe oubli&eacute;';
 $strPassword    = 'Mot de passe';
 $strPassword2    = 'Confirmation du mot de passe';
 $strPasswordsNoMatch   = 'Les mots de passe ne sont pas identiques';
+$strEmailNotValid  = 'L\'adresse email indiqu&eacute;e n\'est pas valide';
 $strEmailsNoMatch     = 'les Adresses Email ne correspondent pas';
 $strInvalidPassword  = 'Erreur : courriel ou mot de passe invalide';
 $strPasswordSent   = 'Le mot de passe vient d\'&ecirc;tre envoy&eacute; par courriel';

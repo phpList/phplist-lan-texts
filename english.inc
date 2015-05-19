@@ -96,6 +96,7 @@ $strPassword           = 'Password';
 $strPassword2           = 'Confirm Password';
 $strPasswordsNoMatch    = 'Passwords are not the same';
 $strEmailsNoMatch     = 'Email addresses you entered do not match';
+$strEmailNotValid  = 'Email address is not valid';
 $strInvalidPassword     = 'Error: invalid email or password';
 $strPasswordSent        = 'Your password has been sent. You should receive it in the next few minutes';
 $strPasswordRemindSubject = 'Your password for our newsletters';

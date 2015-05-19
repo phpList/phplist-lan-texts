@@ -83,6 +83,7 @@ $strPassword           = 'Passwort';
 $strPassword2          = 'Passwort bestätigen';
 $strPasswordsNoMatch   = 'Die Passwörter stimmen nicht überein';
 $strEmailsNoMatch      = 'Die E-Mail Adressen stimmen nicht überein';
+$strEmailNotValid  = 'Diese E-mail Adresse ist nicht korrekt';
 $strInvalidPassword    = 'Fehler: ungültige E-Mail oder Passwort';
 $strPasswordSent       = 'Ihre Passwort wurde Ihnen per E-Mail zugesendet. Sie sollten es innerhalb der nächsten Minuten erhalten.';
 $strPasswordRemindSubject = 'Ihr Passwort für unsere Listen';
