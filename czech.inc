@@ -1,118 +1,121 @@
-<?php
+﻿<?php
 
 # language dependent text used in the interface for users (not admin)
-# Czech translation by Ota Lunak ota@lunak.info
-# alternative coding iso-8859-2
 
-$strCharSet             = 'Windows-1250';
-$strName                = 'Jm�no';
+$strCharSet             = 'UTF-8';
+$strName                = 'Jméno';
 $strAddress             = 'Adresa';
 $strEmail               = 'Email';
-$strTown                = 'M�sto';
-$strPostcode            = 'PS�';
-$strSubscribeInfo       = 'Zaregistrujte se k odb�ru n�kter�ho informa�n�ho zpravodaje ze seznamu n�e';
-$strRequired            = '(Vy�adovan� pole)';
-$strSubscribeTitle      = 'Zaregistrujte se v n�kter�m info seznamu';
-$strPleaseSelect        = 'Vyberte seznam, kde se chcete zaregistrovat, pros�m';
-$strSubmit              = 'Zaregistrovat se do vybran�ch info seznam�;';
-$strNotAvailable        = 'Litujeme, ale ��dn� info seznam nen� k dispozici';
-$strEnterName           = 'Zadejte Va�e jm�no, pros�m';
-$strEnterEmail          = 'Zadejte Va�i emailovou adresu, pros�m';
-$strInvalidHostInEmail  = 'Va�e emailov� adresa nebyla ov��ena. Zkontrolujte ji, pros�m';
-$strEnterList           = 'Vyberte info seznam, pros�m';
-$strPleaseEnter         = 'Zadejte pros�m ';
+$strTown                = 'Město';
+$strPostcode            = 'PSČ';
+$strSubscribeInfo       = '<h1>Přihlašte se k našemu newsletteru</h1>';
+$strRequired            = 'Požadovaná pole jsou označena červeně';
+$strSubscribeTitle      = 'Přihlašte se k našemu newsletteru';
+$strPleaseSelect        = 'Prosím vyberte newsletter ke kterému se chcete přihlásit';
+$strSubmit              = 'Přihlašte se k vybranému newsletteru';
+$strNotAvailable        = 'Omlouváme se, žádný newsletter není dostupný';
+$strEnterName           = 'Prosím zadejte Vaše jméno';
+$strEnterEmail          = 'Prosím zadejte Váš email';
+$strConfirmEmail        = 'Potvrdte váš email';
+$strInvalidHostInEmail  = 'Omlouváme se, ale email je nedoručitelný, zkontrolujte zda je napsán správně';
+$strEnterList           = 'Prosím vyberte newsletter, ke kterému se chcete přihlásit';
+$strPleaseEnter         = 'Prosím zadejte vaše';
 # the thanks message can contain placeholders
-#$strThanks              = 'Dear [FIRST NAME], <br/>Thank you for subscribing to our lists.';
-$strThanks              = 'D�kujeme za registraci!';
+#$strThanks              = 'Vážený/á [FIRST NAME], <br/>Dekujeme za prihlášení do naší databáze.';
+$strThanks              = 'Děkujeme za přihlášení k naší databázi.';
 # the EmailConfirmation message can contain placeholders
-#$strEmailConfirmation   = 'Your email [email] has been added to our system. You will be e-mailed shortly with confirmation of the lists you have subscribed to.';
-$strEmailConfirmation   = 'Obratem zas�l�me Va�i registraci potvrzuj�c� email na adresu [email].';
-$strEmailFailed					= 'Litujeme, ale registraci potvrzuj�c� email se nepoda�ilo odeslat. Zkuste znovu, pros�m.';
-$strUnsubscribeTitle    = 'Odhl�en� z registrace odb�ru zpravodaj&#367;.';
-$strUnsubscribeDone     = 'Potvrzuj�c� email o odhl�en� z odb�ru zpravodaj� bude obratem odesl�n.';
-$strBack                = 'Zp�t';
-$strUnsubscribeInfo     = 'Zru�it registraci v n�kter�m z info seznam&#367;';
-$strContinue            = 'Pokra�ovat';
-$strUnsubscribeSelect   = 'Vyberte pros�m seznam, ze kter�ho se chcete odhl�sit';
-$strAllLists            = 'V�echny info seznamy';
-$strNoLists             = '��dn� ze seznam�';
-$strUnsubscribeRequestForReason = 'Je n�m l�to, �e nem�te z�jem o ��dn� informace. Pokud n�m chcete pomoci zlep�it na�e slu�by, sd�lte n�m pros�m d�vod Va�eho nez�jmu:';
-$strUnsubscribeFinalInfo = '<br/><b>Pozor</b>: potvrzen�m tla��tka "Odhl�sit" zru��te odb�r informac� <b>nav�dy</b>. Pokud snad chcete pouze zm�nit Va�i emailovou adresu nebo odeb�ran� informace, vyu�ijte <a href="[PREFERENCESURL]">tento odkaz</a>.';
-$strNoListsFound        = 'Litujeme, ale tato adresa v datab�zi neexistuje.';
+#$strEmailConfirmation   = 'Váš email [email] byl přidán do našeho systému.';
+$strEmailConfirmation   = 'Váš email byl přidán do našeho systému.';
+$strEmailFailed          = 'Litujeteme ale registraci potvrzující email se nepodařilo odeslat.';
+$strUnsubscribeTitle    = 'Odhlášení z naší databáze';
+$strUnsubscribeDone     = 'Byly jste úspěšně vymazáni z naší databáze.';
+$strBack                = 'Zpátky';
+$strUnsubscribeInfo     = 'Odhlášení z databáze';
+$strContinue            = 'Pokračovat';
+$strUnsubscribeSelect   = 'Prosím vyberte databáze ze kterých se chcete odhlásit';
+$strAllLists            = 'Všechny databáze';
+$strNoLists             = 'Žádná z nich';
+$strUnsubscribeRequestForReason = 'Je nám líto, že nemáte zájem o naše informace. Pokud nám chcete pomoci zlepšit naše služby, sdělte nám prosím důvod vašeho odhlášení:';
+$strUnsubscribeFinalInfo = '<br/><b>Pozor</b>: potvrzením tlačítka "Odhlásit" zrušíte odběr informaci <b>navždy</b>. Pokud chcete pouze změnit Vaši emailovou adresou nebo změnit informace využijte prosím <a href="[PREFERENCESURL]">tento odkaz</a> instead';
+$strNoListsFound        = 'Promiňte, nejste příhlášen do žádné naší databáze s tímto emailem';
 $strResubmit            = 'Znovu potvrdit emailovou adresu';
-$strUnsubscribeSubmit   = 'Zru�it registraci ve vybran�ch info seznamech';
-$strValuesMissing       = 'Chyb� n�sleduj�c� po�adovan� �daje';
-$strConfirmInfo         = 'D�kujeme za potvrzen� odb�ru zpravodaj� zobrazen�ch n�e';
-$strConfirmTitle        = 'Str�nka potvrzen� odb�ru';
-$strUserNotFound        = 'U�ivatel nenalezen';
-$strUserAlreadyInitialised = 'Litujeme, ale Va�e heslo ji� bylo nastaveno';
-$strConfirmFailInfo     = 'Litujeme, ale p�i potvrzen� do�lo k chyb�, specifikovan� n�e';
-$strPreferHTMLEmail     = 'Preferuji HTML form�t';
-$strPreferTextEmail     = 'Preferuji textov� form�t';
-$strPreferredFormat      = 'Preferovan� form�t emailu:';
+$strUnsubscribeSubmit   = 'Odhlášení z uvedených databází';
+$strValuesMissing       = 'Chybějí vyžadovaná pole';
+$strConfirmInfo         = 'Děkujeme za potvrzení přihlášení k našim Newsletterům. Newslettery ke kterým jste se přihlásili k odběru jsou uvedeny zde';
+$strConfirmTitle        = 'Potvrzovací stránka';
+$strUserNotFound        = 'Uživatel nenalezen';
+$strUserAlreadyInitialised = 'Omlouváme se, Vaše heslo bylo již nastaveno';
+$strConfirmFailInfo     = 'Litujeteme, ale při potvrzení došlo k chybě. Ujistětete se zda jste vyplnili plnou webovou adresu, kterou jste obdrželi v emailu.';
+$strPreferHTMLEmail     = 'Preferuju zasílání mailů v HTML';
+$strPreferTextEmail     = 'Preferuju zasílání mailů v textu';
+$strPreferredFormat      = 'Preferovaný formát mailů:';
 $strText                 = 'Text';
 $strHTML                = 'HTML';
-$strUserAlreadyInitialised = 'Litujeme, ale va�e heslo ji� bylo nastaveno';
-$strConfirmFailInfo     = 'Litujeme, ale v� po�adavek pro potvrzen� nelze realizovat. Zkontrolujte, zda odkaz, kter� jste obdr�eli v emailu je �pln� a na jedn� ��dce.';
-$strPreferencesTitle    = 'Inovovat preference';
-$strPreferencesInfo     = 'Pros�m, potvr�te spr�vnost informace kliknut�m na tla��tko "Inovace"';
-$strUpdatePreferences   = 'Inovace';
-$strPreferencesEmailChanged = 'Va�e emailov� adresa je zm�n�na. Klikn�te na odkaz v potvrzuj�c�m emailu, kter� obdr��te, a potvr�te registraci, pros�m.';
-$strYouAreBlacklisted = 'Va�e emailov� adresa je na blokov�na, proto�e bylo po�adov�no zru�it zas�l�n� email�. ' .
-    '<br/> Kontaktujte administr�tora tohoto webu, kter� na va�i ��dost zas�l�n� obnov�. ';
-$strPreferencesNotificationSent = 'Obdr��te email, obsahuj�c� zm�ny';
-$strPreferencesUpdated = 'D�kujeme, inovovali jsme Va�e data.';
-$strClickHere          = 'Klikn�te zde';
-$strThisLink           = '<-- zde';
-$strToUnsubscribe      = 'Zru�it p�edplatn� m�ete ';
-$strToUpdate           = 'Inovovat va�e preference m�ete ';
-$strSendHTML           = 'Zaslat HTML form�t';
+$strPreferencesTitle    = 'Aktulizujte své vlastnosti';
+$strPreferencesInfo     = 'Prosím potvrdte, že uvedená data jsou správné a klikněte na "Aktulizovat"';
+$strUpdatePreferences   = 'Aktulizovat';
+$strPreferencesEmailChanged = 'Váš email se změnil. Navštivte prosím odkaz v emailu kde obdržíte Vaší novou e-mailovou adresu';
+$strYouAreBlacklisted = 'Vaše emailová adresa je na blokována, protože bylo požadováno zrušení zasílání emailů <br/>
+Kontaktujte administrátora tohoto webu, který na Vaši žádost obnoví zasílání ';
+$strPreferencesNotificationSent = 'Obdržíte email s Vašimi změnami';
+$strPreferencesUpdated = 'Děkujeme za Vaše informace. Aktulizovali jsme je.';
+$strClickHere          = 'Klikněte zde';
+$strThisLink           = 'Tento odkaz';
+$strToUnsubscribe      = 'Jestli nechtete dostávat žadné newslettery, ';
+$strToUpdate           = 'K aktulizovaní vašich vlastností a odhlášení naštivte';
+$strSendHTML           = 'Posílat HTML';
 $strYes                = 'Ano';
 $strNo                 = 'Ne';
-$strUnsubscribe        = 'Odhl�sit';
-$strAllMailinglists    = 'V�echny info seznamy';
-$strAttachmentIntro     = 'Tato zpr�va obsahuje p��lohy, kter� m�ete otev��t pomoc� prohl�e�e:';
-$strLocation           = 'M�sto';
-$strFrequency           = 'Jak �asto V�m pos�l�me zpr�vy';
-$strHourly             = 'Ka�dou hodinu';
-$strDaily               = 'Denn�';
-$strWeekly             = 'T�dn�';
-$strMonthly             = 'M�s��n�';
-$strChoosePassword      = 'Zadejte heslo, pros�m';
-$strConfirmPassword    = 'Potvr�te heslo, pros�m';
-$strEnterPassword       = 'Zadejte heslo, pros�m';
-$strForgotPassword     = 'Zapomenut� heslo';
+$strUnsubscribe        = 'Odhlásit';
+$strAllMailinglists    = 'Všechny newslettery';
+$strAttachmentIntro     = 'Tato zpráva obsahuje přílohy, které mohou být zobrazeny v prohlížeči:';
+$strLocation           = 'Umístění';
+$strFrequency           = 'Jak často Vám zasíláme zprávy';
+$strHourly             = 'Každou hodinu';
+$strDaily               = 'Denně';
+$strWeekly             = 'Týdně';
+$strMonthly             = 'Měsíčně';
+$strChoosePassword      = 'Prosím zvolte si heslo';
+$strConfirmPassword    = 'Potvrdte heslo';
+$strEnterPassword       = 'Prosím zadejte heslo';
+$strForgotPassword     = 'Zapomenuté heslo';
 $strPassword           = 'Heslo';
-$strPassword2           = 'Znovu potvrdit heslo';
-$strPasswordsNoMatch    = 'Hesla nesouhlas�';
-$strEmailsNoMatch     = 'Emailov� adresa neodpov�d�';
-$strInvalidPassword     = 'Chyba: neplatn� heslo nebo emailov� adresa';
-$strPasswordSent        = 'Va�e heslo V�m bylo zasl�no emailem. Obdr��te ho v n�kolika minut�ch.';
-$strPasswordRemindSubject = 'Va�e heslo pro odb�r info mail�';
-$strPasswordRemindMessage = 'Va�e heslo je ';
-$strPasswordRemindInfo = 'Pro zasl�n� hesla emailem zadejte Va�i adresu emailu a stiskn�te tla��tko "'.$strForgotPassword.'"';
-$strLogin               = 'Login';
-$strLoginTitle          = 'Zadejte, pros�m, Va�i emailovou adresu a heslo';
-$strLoginInfo           = 'Zadejte, pros�m, Va�i emailovou adresu a heslo';
+$strPassword2           = 'Potvrdte heslo';
+$strPasswordsNoMatch    = 'Hesla nejsou stejná';
+$strEmailsNoMatch     = 'Email, který jste zadal nesouhlasí';
+$strInvalidPassword     = 'Chyba: špatný mail nebo heslo';
+$strPasswordSent        = 'Vaše heslo bylo zasláno na Váš email.';
+$strPasswordRemindSubject = 'Vaše heslo pro naše newslettery';
+$strPasswordRemindMessage = 'Vaše heslo je ';
+$strPasswordRemindInfo = 'K obdržení hesla emailem zadejte váš email a klikněte na "'.$strForgotPassword.'".';
+$strLogin               = 'Přihlásit';
+$strLoginTitle          = 'Prosím zadejte váš email a heslo';
+$strLoginInfo           = 'Tato stránka vyžaduje Vaše heslo. Prosím zadejte Váš email a vaše heslo';
 $strPersonalLocationInfo = '
-  <p>Tato str�nka vy�aduje osobn� identifikaci, kterou najdete v ka�d�m emailu, kter� jsme V�m zaslali.<br/>
-  Pokud jste vyu�ili odkaz osobn� identifikace a p�esto �tete toto hl�en�, p�esv�d�te se pros�m, �e odkaz je na jednom ��dku, nezalomen�.</p>
-  <p>Pokud odkaz osobn� identifikace  nem�te, vy��dejte si ho vlo�en�m Va�� emailov� adresy n�e a stiskn�te tla��tko "Pokra�ovat"
-  ';
-$strPersonalLocationSent = '<h1>Povedlo se! V kr�tk� dob� obdr��te email s Va�� osobn� identifikac�.</h1>';
-$strUserExists   = '<br/>U�ivatel se stejnou emailovou adresou ji� existuje a na�e z�znamy obsahuj� rozd�ln� heslo';
-$strUserExistsExplanationStart = '<br/>Chcete-li z�skat heslo, klikn�te ';
-$strUserExistsExplanationLink = 'ZDE';
-$strUserExistsExplanationEnd = ' pro p�esm�rov�n� na str�nku z�sk�n� osobn� identifikace.';
-$strForwardTitle = 'P�eposlat zpr�vu n�komu, koho zn�te';
-$strForwardSubtitle = 'P�eposlat zpr�vu s p�edm�tem ';
-$strForwardEnterEmail = 'Pros�m, zadejte platnou emailovou adresu, komu chcete p�eposlat zpr�vu ';
-$strForwardSuccessInfo ='Zpr�va p�eposl�na';
-$strForwardFailInfo = 'P�eposl�n� zpr�vy selhalo';
-$strForwardAlreadyDone = 'P�eposl�n� zpr�vy na zadanou adresu bylo �sp�n�';
-$strForwardFooter = 'Tuto zpr�vu V�m p�epos�l� [FORWARDEDBY].
-  Neznamen� to automatickou registraci k odb�ru info zpravodaj�.
-  Registrace - ';
-$strForward = 'Forward';
+<p>Tato stránka vyžaduje osobní identifikaci, kterou najdete v každém emailu, který jsme Vám zaslali.<br/>
+  Pokud jste využili odkaz osobní identifikace a přesto čtete toto hlášění, přesvědčte se prosím, že odkaz je na jednom řádku, nezalomen.</p>
+  <p>Pokud odkaz osobní identifikace  nemáte, vyžádejte si ho vložením Vaší emailové adresy a stiskněte tlačítko "Pokračovat"
+';
+$strPersonalLocationSent = '<h1>Úspěšné! V nejbližší době obdržíte Vaše osobní umístění</h1>';
+$strUserExists   = '<br/>Uživatel s tímto emailem již existuje a v záznamech má jiné heslo';
+$strUserExistsExplanationStart = '<br/>Pro získání svého hesla klikněte ';
+$strUserExistsExplanationLink = 'Zde';
+$strUserExistsExplanationEnd = ' Přejdětě na stránku kde obdržíte vaše osobní umístění';
+$strExplainBlacklist = 'Email, který jste zadal je naším systémem blokován pro odesílání emailů na tuto adresu.';
+$strForwardTitle = 'Přeposlat zprávu někomu';
+$strForwardSubtitle = 'Přeposlat zprávu s předmětem ';
+$strForwardEnterEmail = 'Prosím zadejte email na který chcete zprávu přeposlat';
+$strForwardInvalidEmail = 'Toto není správný email';
+$strForwardBlacklistedEmail = 'Příjemce si nepřeje zasílat emaily z tohoto systému.';
+$strForwardEnterEmails = 'Zadejte prosím maximálně % platných emailových adres k předání v tomto poli, jeden na řádek';
+$strForwardPersonalNote = 'Můžete zadat jednoduchou textovou zprávu (z max. % znaků) která bude předána emailem';
+$strForwardSuccessInfo ='Zpráva byla přeposlána';
+$strForwardFailInfo = 'Zpráva nebyla přeposlána';
+$strForwardAlreadyDone = 'Tato zpráva již byla úspěšně předána na tuto emailovou adresu';
+$strForwardCountReached = 'Dosažen maximální počet přeposlání';
+$strForwardNoteLimitReached = 'Dosažena maximální délka osobní poznámky';
+$strForwardFooter = 'Tato zpráva Vám byla přeposlána [FORWARDEDBY].
+  Nebyl jste automaticky přihlášen do tohoto newsletteru.
+  Pokud chcete přihlásit přejděte na';
+$strForward = 'Přeposlat';
 $strFwd = 'Fwd'; # short version of forward for email subject
-?>
