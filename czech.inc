@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 # language dependent text used in the interface for users (not admin)
 
