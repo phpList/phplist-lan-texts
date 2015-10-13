@@ -50,92 +50,91 @@ $strConfirmTitle        = 'phpList strana za potvrdu';
 $strUserNotFound        = 'Pretplatnik nije pronađen';
 $strUserAlreadyInitialised = 'Izvinite, vaša lozinka je već podešena';
 $strConfirmFailInfo     = 'Izvinite, vaš zahtev za potvrdu nije prepoznat. Molimo proverite da li koristite punu veb adresu kao što je pomenutu u email-u koji ste primili. Ponekad ova veb adresa može biti u više redova.';
-$strPreferHTMLEmail     = 'I prefer to receive emails in HTML format';
-$strPreferTextEmail     = 'I prefer to receive emails in Text format';
-$strPreferredFormat      = 'Preferred format for email messages:';
-$strText                 = 'Text';
+$strPreferHTMLEmail     = 'Želeo bih da primam email u HTML formatu';
+$strPreferTextEmail     = 'Želeo bih da primam email u Tekst formatu';
+$strPreferredFormat      = 'Željeni format za email poruke:';
+$strText                 = 'Tekst';
 $strHTML                = 'HTML';
-$strPreferencesTitle    = 'Update your preferences';
-$strPreferencesInfo     = 'Please confirm that the information below is correct and click the "Update" button';
-$strUpdatePreferences   = 'Update';
-$strPreferencesEmailChanged = 'Your email address has changed. Please visit the link in the message you will receive to confirm your new email address';
-$strYouAreBlacklisted = 'Your email is listed in our "Do not send" list, which means that you have requested us never to send you any more newsletters. <br/>
-In order to receive newsletters again, manual intervention is required by our administrator. Please contact us stating explicitly that you want to receive newsletters again.';
-$strPreferencesNotificationSent = 'You will receive a notification message with the changes';
-$strPreferencesUpdated = 'Thank you. We have updated your information.';
-$strClickHere          = 'Click here';
-$strThisLink           = 'this link';
-$strToUnsubscribe      = 'If you do not want to receive any more newsletters, ';
-$strToUpdate           = 'To update your preferences and to unsubscribe visit';
-$strSendHTML           = 'Send HTML email';
-$strYes                = 'Yes';
-$strNo                 = 'No';
-$strUnsubscribe        = 'Unsubscribe';
-$strAllMailinglists    = 'All newsletters';
-$strAttachmentIntro     = 'This message contains attachments that can be viewed with a webbrowser:';
-$strLocation           = 'Location';
-$strFrequency           = 'How often do we send you messages';
-$strHourly             = 'Hourly';
-$strDaily               = 'Daily';
-$strWeekly             = 'Weekly';
-$strMonthly             = 'Monthly';
-$strChoosePassword      = 'Please choose a password';
-$strConfirmPassword    = 'Confirm your password';
-$strEnterPassword       = 'Please enter your password';
-$strForgotPassword     = 'Forgot Password';
+$strPreferencesTitle    = 'Ažurirajte vaše postavke';
+$strPreferencesInfo     = 'Molimo proverite da je informacija ispod tačna i kliknite dugme "Ažuriraj"';
+$strUpdatePreferences   = 'Ažuriraj';
+$strPreferencesEmailChanged = 'Vaša email adresa je promenjena. Molimo posetite link u poruci koju ćete primiti kako bi potvrdili vašu novu email adresu';
+$strYouAreBlacklisted = 'Vaša email adresa se nalazi na našoj "Ne šalji" listi, što znači da ste tražili od nas da vam ne šaljemo biltene. <br/>
+Kako bi vam ponovo slali biltene, potrebna je ručna intervencija od strane našeg administratora. Molimo kontaktirajte nas sa zahtevom da želite ponovo da primate naše biltene.';
+$strPreferencesNotificationSent = 'Primićete obaveštenje o promenama';
+$strPreferencesUpdated = 'Hvala vam. Ažurirali smo vaše podatke.';
+$strClickHere          = 'Kliknite ovde';
+$strThisLink           = 'ovaj link';
+$strToUnsubscribe      = 'Ako više ne želite da primate biltene, ';
+$strToUpdate           = 'Da ažurirate vaše postavke i da se odjavite posetite';
+$strSendHTML           = 'Pošalji HTML email';
+$strYes                = 'Da';
+$strNo                 = 'Ne';
+$strUnsubscribe        = 'Odjavi se';
+$strAllMailinglists    = 'Svi bilteni';
+$strAttachmentIntro     = 'Ova poruka sadrži priloge koji se mogu pregledati sa veb čitačem:';
+$strLocation           = 'Lokacija';
+$strFrequency           = 'Koliko često vam šaljemo poruke';
+$strHourly             = 'Po satu';
+$strDaily               = 'Dnevno';
+$strWeekly             = 'Dnevno';
+$strMonthly             = 'Mesečno';
+$strChoosePassword      = 'Molimo izaberite lozinku';
+$strConfirmPassword    = 'Potvrdite vašu lozinku';
+$strEnterPassword       = 'Molimo unesite vašu lozinku';
+$strForgotPassword     = 'Zaboravljena lozinka';
 $strForgotPasswordEmailBody = '
-    Dear Mailinglist Master
-    I forgot my password for the phpList mailinglist system.
-    Could you reset it to something and let me know what it is?
-    Thanks
+    Poštovani
+    Zaboravio/Zaboravila sam svoju lozinku za phpList sistem.
+    Možete li je resetovati na nešto drugo i obavestiti me koja je?
+    Hvala
 ';    
 
-$strPassword           = 'Password';
-$strPassword2           = 'Confirm Password';
-$strPasswordsNoMatch    = 'Passwords are not the same';
-$strEmailsNoMatch     = 'Email addresses you entered do not match';
-$strEmailNotValid  = 'Email address is not valid';
-$strInvalidPassword     = 'Error: invalid email or password';
-$strPasswordSent        = 'Your password has been sent. You should receive it in the next few minutes';
-$strPasswordRemindSubject = 'Your password for our newsletters';
-$strPasswordRemindMessage = 'Your password is ';
-$strPasswordRemindInfo = 'To receive your password by email, please enter your email and click the "'.$strForgotPassword.'" button.';
-$strLogin               = 'Login';
-$strLoginTitle          = 'Please enter your email address and password';
-$strLoginInfo           = 'This page requires a password. Please enter your email address and password';
+$strPassword           = 'Lozinka';
+$strPassword2           = 'Potvrdi lozinku';
+$strPasswordsNoMatch    = 'Lozinke nisu iste';
+$strEmailsNoMatch     = 'Unesene email adrese se ne poklapaju';
+$strEmailNotValid  = 'Email adresa nije važeća';
+$strInvalidPassword     = 'Greška: nevažeća email adresa ili lozinka';
+$strPasswordSent        = 'Vaša lozinka je poslata. Primićete je za nekoliko minuta';
+$strPasswordRemindSubject = 'Vaša lozinka za naš bilten';
+$strPasswordRemindMessage = 'Vaša lozinka je ';
+$strPasswordRemindInfo = 'Da primite lozinku na email, molimo unesite vašu email adresi i kliknite "'.$strForgotPassword.'" dugme.';
+$strLogin               = 'Prijava';
+$strLoginTitle          = 'Molimo unesite vašu email adresu i lozinku';
+$strLoginInfo           = 'Ova strana zahteva lozinku. Molimo unesite vašu email adresu i lozinku';
 $strPersonalLocationInfo = '
-  <p>This page requires a personal identification that can be found on each message that you receive.</p>
-  <p>If you have clicked this location, and you get this error, please make sure to paste the entire line into the
-  location box of your browser. Sometimes the location is wrapped over several lines.</p>
-  <p>If you do not know the location, enter your email address in the box and click "Continue"</p>
+  <p>Ova strana zahteva ličnu identifikaciju koja se može naći u svakoj poruci koju primite od nas.</p>
+  <p>Ako ste kliknuli ovu lokaciju, a dobijate ovu grešku, molimo prekopirajte celu liniju u polje lokacije u vašem veb čitaču. Ponekad se lokacija prelama u više redova.</p>
+  <p>Ako ne znate lokaciju, unesite vašu email adresu u polje i kliknite "Nastavi"</p>
 ';
-$strPersonalLocationSent = '<h3>Success! You should receive a message with your personal location shortly</h3>';
-$strUserExists   = 'A subscriber with that address already exists, and our records contain a different password';
-$strUserExistsExplanationStart = 'In order to obtain your password, click ';
-$strUserExistsExplanationLink = 'here';
-$strUserExistsExplanationEnd = ' to go to the page where you can request your personal location';
-$strExplainBlacklist = 'The email address that you enter here will be recorded in our database with the sole purpose of blocking any email sent from this system.';
+$strPersonalLocationSent = '<h3>Uspeh! Uskoro ćete primiti poruku sa vašom ličnom lokacijom</h3>';
+$strUserExists   = 'Pretplatnik sa tom adresom već postoji, a naši zapisi sadrže drugu lozinku';
+$strUserExistsExplanationStart = 'Kako bi dobili vašu lozinku, kliknite ';
+$strUserExistsExplanationLink = 'ovde';
+$strUserExistsExplanationEnd = ' da bi otišli na stranu gde možete tražiti vašu ličnu lokaciju';
+$strExplainBlacklist = 'Email adresa koju ste uneli će biti zapisana u našoj bazi podataka jedino u svrhu blokiranja bilo kojih email poruka poslatih iz ovog sistema.';
 
-$strUserExistsResubscribe = 'A subscriber with that address already exists';
-$strUserExistsResubscribeExplanation = 'Visit the <a href="%s">preferences page</a> to update your information.';
+$strUserExistsResubscribe = 'Pretplatnik sa tom adresom već postoji';
+$strUserExistsResubscribeExplanation = 'Posetite <a href="%s">stranu sa podešavanjima</a> da ažurirate vaše informacije.';
 
 
-$strForwardTitle = 'Forward a Message to Someone';
-$strForwardSubtitle = 'Forwarding the message with subject ';
-$strForwardEnterEmail = 'Please enter a valid email address to forward to';
-$strForwardInvalidEmail = '%s is not a valid email address';
-$strForwardBlacklistedEmail = 'Recipient has requested not to receive emails from this system.';
-$strForwardEnterEmails = 'Please enter a maximum of %s valid email addresses to forward to in this box, one per line';
-$strForwardPersonalNote = 'You can enter a plain text message (of maximum %d characters) that will be prepended to the forwarded mail';
-$strForwardSuccessInfo ='The message has been forwarded';
-$strForwardFailInfo = 'Forwarding the message failed';
-$strForwardAlreadyDone = 'This message has already been successfully forwarded to that email address';
-$strForwardCountReached = 'Maximum amount of forwards reached';
-$strForwardNoteLimitReached = 'Maximum length of personal note reached';
-$strForwardFooter = 'This message has been forwarded to you by [FORWARDEDBY].
-  You have not been automatically subscribed to this newsletter.
-  To subscribe to this newsletter go to';
-$strForward = 'Forward';
+$strForwardTitle = 'Prosledi nekome poruku';
+$strForwardSubtitle = 'Prosleđujem poruku sa naslovom ';
+$strForwardEnterEmail = 'Molimo unesite važeću email adresu za prosleđivanje';
+$strForwardInvalidEmail = '%s nije važeća email adresa';
+$strForwardBlacklistedEmail = 'Primalac je tražio da ne prima email poruke od ovog sistema.';
+$strForwardEnterEmails = 'Molimo unesite maksimum od %s važećih email adresa za prosleđivanje u ovom polju, jednu po liniji';
+$strForwardPersonalNote = 'Možete uneti običnu tekstualnu poruku (od maksimum %d karaktera) koja će biti dodata na početak prosleđenog email-a';
+$strForwardSuccessInfo ='Poruka je prosleđena';
+$strForwardFailInfo = 'Neuspešno prosleđivanje poruke';
+$strForwardAlreadyDone = 'Poruka je već uspešno prosleđena na tu email adresu';
+$strForwardCountReached = 'Dostignut je maksimalan broj prosleđivanja';
+$strForwardNoteLimitReached = 'Dostignuta je maksimalna dužina lične napomene';
+$strForwardFooter = 'Ova poruka Vam je prosleđena od strane [FORWARDEDBY].
+  Niste automatski pretplaćeni na ovaj bilten.
+  Da se pretplatite na ovaj bilten idite na';
+$strForward = 'Prosledi';
 $strFwd = 'Fwd'; # short version of forward for email subject
 
 
