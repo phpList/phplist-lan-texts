@@ -117,7 +117,7 @@ $strForwardFooter = 'Ovaj ste e-mail dobili od [FORWARDEDBY].
   Želite li se pretplatiti na takve sadržaje idite na';
 $strForward = 'Forward';
 $strFwd = 'Fwd'; # short version of forward for email subject
-?>
+
 $strSubscribeInfo       = 'Popunite obrazac za prijavu na naše e-novosti.';
 $strRequired            = 'Obavezni podaci:';
 $strSubscribeTitle      = 'Pretplata na naše e-novosti';
@@ -224,4 +224,4 @@ $strForwardFooter = 'Ovaj ste e-mail dobili od [FORWARDEDBY].
   Želite li se pretplatiti na takve sadržaje idite na';
 $strForward = 'Forward';
 $strFwd = 'Fwd'; # short version of forward for email subject
-?>
+
