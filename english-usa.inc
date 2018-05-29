@@ -19,6 +19,7 @@ $strEnterEmail          = 'Please enter your email address';
 $strInvalidHostInEmail  = 'Sorry, email to that domain are undeliverable.  Please check that you typed the email address correctly';
 $strEnterList           = 'Please select a newsletter to subscribe to';
 $strPleaseEnter         = 'Please enter your';
+$strCheckbox            = 'The following field is required: ';
 # the thanks message can contain placeholders
 #$strThanks              = 'Dear [FIRST NAME], <br/>Thank you for subscribing to our lists.';
 $strThanks              = 'Thank you for subscribing to our newsletters.';
