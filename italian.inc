@@ -122,4 +122,5 @@ $strForwardFooter 			= "Questo messaggio ti &egrave; stato inoltrato da [FORWARD
   Per iscriverti, vai a ";
 $strForward 				= 'Inoltra';
 $strFwd 					= 'Fwd'; # short version of forward for email subject
+$strContactAdmin = 'Contattare l\'amministratore di questo sistema';
 ?>
