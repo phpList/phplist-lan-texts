@@ -125,4 +125,5 @@ $strForward = 'Weiterleiten';
 $strFwd = 'Fwd';
 $strUserExistsResubscribe = 'Diese E-Mail ist bereits registriert.';
 $strUserExistsResubscribeExplanation = 'Besuchen Sie die <a href="%s"> Voreinstellungsseite </a>, um Ihre persönlichen Angaben zu überprüfen.';
-$strContinue            = 'Weiter'; 
+$strContinue            = 'Weiter';
+$strContactAdmin = 'Listenadministrator kontaktieren';
