@@ -42,6 +42,7 @@ $strResubmit            = 'Anna sähköpostiosoite uudelleen';
 $strUnsubscribeSubmit   = 'Peruuta valittu uutiskirje';
 $strValuesMissing       = 'Seuraavat tiedot puuttuvat';
 $strConfirmInfo         = 'Kiitos uutiskirjeen tilauksesta. Alla on listattu tilatut uutiskirjeet';
+$strAlreadyConfirmed    = 'Olemme jo saaneet vahvistuksesi aiemmin.';
 $strConfirmTitle        = 'Jäsenyyden vahvistussivu';
 $strUserNotFound        = 'Käyttäjää ei löytynyt';
 $strUserAlreadyInitialised = 'Virhe! Salasanasi on jo asetettu';
