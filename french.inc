@@ -1,6 +1,6 @@
 <?php
 # language dependent text used in the interface for users (not admin)
-# translation by Gijsbert Rochat, updated by Jean-Luc Picard
+# translation by Gijsbert Rochat, updated by Jean-Luc Picard and Alain Rihs
 
 $strCharSet             = 'UTF-8';
 $strLancode             = 'fr';
@@ -22,16 +22,17 @@ $strConfirmEmail        = 'Confirmez votre adresse électronique';
 $strInvalidHostInEmail  = 'Désolé, aucun message ne peut être envoyé à ce domaine. Veuillez vérifier que vous avez correctement entré votre adresse électronique';
 $strEnterList           = 'Veuillez sélectionner une liste à laquelle vous abonner :';
 $strPleaseEnter         = 'Veuillez entrer votre';
+$strCheckbox            = 'Le champ suivant est obligatoire: ';
 # the thanks message can contain placeholders
 #$strThanks             = 'Dear [FIRST NAME], <br/>Thank you for subscribing to our lists.';
-$strThanks              = 'Merci de vous être abonné(e) à nos listes.';
+$strThanks              = 'Merci de vous être abonné·e à nos listes.';
 # the EmailConfirmation message can contain placeholders
 #
 #$strEmailConfirmation  = 'Your email [email] has been added to our system. You will be e-mailed shortly with confirmation of the lists you have subscribed to.';
-$strEmailConfirmation   = 'Votre adresse électronique a été enregistrée dans notre plateforme. Vous allez recevoir un message vous demandant de confirmer votre abonnement. Il vous faudra confirmer votre abonnement en cliquant sur le lien contenu dans le message.';
+$strEmailConfirmation   = 'Votre adresse électronique [email] a été enregistrée dans notre plateforme. Vous allez recevoir un message vous demandant de confirmer votre abonnement. Il vous faudra confirmer votre abonnement en cliquant sur le lien contenu dans le message.';
 $strEmailFailed			= 'Désolé, l’envoi du message de confirmation a échoué. Veuillez réactualiser la page pour réessayer.';
 $strUnsubscribeTitle    = 'Se désabonner de nos listes';
-$strUnsubscribeDone     = 'Vous avez été désabonné(e) des listes choisies. Vous recevrez un message de confirmation.';
+$strUnsubscribeDone     = 'Vous avez été désabonné·e des listes choisies. Vous recevrez un message de confirmation.';
 $strUnsubscribedNoConfirm	= 'Vous avez été désabonné de ce système.';
 $strBack                = 'Retour';
 $strUnsubscribeInfo     = 'Se désabonner d’une ou de plusieurs de nos listes';
@@ -40,12 +41,12 @@ $strUnsubscribeSelect   = 'Veuillez sélectionner les listes auxquelles vous dé
 $strAllLists            = 'Toutes les listes';
 $strNoLists             = 'Aucune liste';
 $strUnsubscribeRequestForReason = 'Nous sommes désolés de constater que vous ne souhaitiez plus recevoir nos messages. Afin de nous aider à améliorer nos services, pourriez-vous nous en préciser les raisons ? :';
-$strUnsubscribeFinalInfo = '<br/><b>Attention :</b> Cette page est une page de désinscription <b>définitive</b> de nos listes. Si vous désirez changer votre adresse électronique ou modifier les listes auxquelles vous êtes abonné(e), veuillez utiliser le lien <a href="[PREFERENCESURL]">pour mettre à jour votre préférences</a> à la place.';
-$strNoListsFound        = 'Désolé, vous n’êtes inscrit(e) à aucune liste avec cette adresse électronique.';
+$strUnsubscribeFinalInfo = '<br/><b>Attention :</b> Cette page est une page de désinscription <b>définitive</b> de nos listes. Si vous désirez changer votre adresse électronique ou modifier les listes auxquelles vous êtes abonné·e, veuillez utiliser le lien <a href="[PREFERENCESURL]">pour mettre à jour votre préférences</a> à la place.';
+$strNoListsFound        = 'Désolé, vous n’êtes inscrit·e à aucune liste avec cette adresse électronique.';
 $strResubmit            = 'Soumettre à nouveau';
 $strUnsubscribeSubmit   = 'Se désabonner des listes sélectionnées';
 $strValuesMissing       = 'Les entrées requises suivantes manquent :';
-$strConfirmInfo         = 'Merci de vous être abonné(e) à nos listes. Les listes auxquelles vous vous êtes abonné(e) sont affichées ci-dessous :';
+$strConfirmInfo         = 'Merci de vous être abonné·e à nos listes. Les listes auxquelles vous vous êtes abonné·e sont affichées ci-dessous :';
 $strAlreadyConfirmed    = 'Nous avons déjà reçu précédement votre confirmation.';
 $strConfirmTitle        = 'Page de confirmation pour la plateforme phpList';
 $strUserNotFound        = 'Destinataire introuvable';
@@ -116,8 +117,13 @@ $strUserExistsExplanationStart = 'Afin d’obtenir votre mot de passe cliquez ';
 $strUserExistsExplanationLink = 'ici';
 $strUserExistsExplanationEnd = ' pour aller à la page ou vous trouverez vos informations personelles';
 $strExplainBlacklist = 'L’adresse que vous venez d’indiquer sera enregistrée dans notre base afin de ne plus vous envoyer de messages.';
+
+$strUserExistsResubscribe = 'Un abonné avec cette adresse existe déjà';
+$strUserExistsResubscribeExplanation = 'Veuillez aller sur la <a href="%s">page des préférences</a> afin de mettre à jour vos données.';
+
+
 $strForwardTitle = 'Transférer le message';
-$strForwardSubtitle = 'Faire suivre le message ayant pour sujet';
+$strForwardSubtitle = 'Faire suivre le message ayant pour sujet ';
 $strForwardEnterEmail = 'Veuillez saisir une adresse électronique valide auquel le message sera transféré';
 $strForwardInvalidEmail = '%s n’est pas une adresse électronique valide.';
 $strForwardBlacklistedEmail = 'Le destinataire a demandé de ne pas recevoir de messages en provenance du système.';
@@ -128,9 +134,10 @@ $strForwardFailInfo = 'Le transfert du message a échoué.';
 $strForwardAlreadyDone = 'Ce message a déjà été transféré avec succès à cettre adresse électronique';
 $strForwardCountReached = 'Le nombre de transferts maximum autorisés a été atteint.';
 $strForwardNoteLimitReached = 'La taille limite de la note personnelle a été atteinte';
-$strForwardFooter = 'Ce message vous a été transféré par  [FORWARDEDBY].
+$strForwardFooter = 'Ce message vous a été transféré par [FORWARDEDBY].
   Vous n’avez pas été inscrit automatiquement sur cette liste de diffusion.
   pour vous y inscrire allez à :';
 $strForward = 'Faire Suivre';
 $strFwd = 'Tr'; # short version of forward for email subject
+$strContactAdmin = 'Contacter l’administrateur';
 ?>
