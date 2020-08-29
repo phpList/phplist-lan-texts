@@ -31,7 +31,7 @@ $strUnsubscribeTitle    = 'Abmelden von unseren Mailinglisten';
 $strUnsubscribeDone     = 'Sie wurden von den Mailinglisten, die Sie ausgewählt haben, abgemeldet - eine Bestätigung erhalten Sie in Kürze per E-Mail.';
 $strBack                = 'Zurück';
 $strUnsubscribeInfo     = 'Abmelden von einer oder mehreren unserer Mailinglisten';
-$strContinü            = 'Weiter';
+$strContinue            = 'Weiter';
 $strUnsubscribeSelect   = 'Bitte wählen Sie die Listen von denen Sie sich abmelden wollen';
 $strAllLists            = 'Alle Listen';
 $strNoLists             = 'Keine von diesen';
@@ -94,7 +94,7 @@ $strLoginTitle         = 'Bitte geben Sie Ihre E-Mail-Adresse und Ihr Passwort e
 $strLoginInfo          = 'Diese Seite benötigt ein Passwort. Bitte geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein';
 $strPersonalLocationInfo = '
   <p>Diese Seite benötigt eine persönliche Identifikation, welche auf jeder von uns an Sie gesendeten E-Mail angegeben ist.<br/>
-  Wenn Sie diesen Bereich angeklickt haben und diesen Fehler erhalten, vergewissern Sie sich, dass Sie die vollständigen Zeilen in die 
+  Wenn Sie diesen Bereich angeklickt haben und diesen Fehler erhalten, vergewissern Sie sich, dass Sie die vollständigen Zeilen in die
   Adresszeile Ihres Browsers eingetragen haben. Manchmal ist die Adresse über mehrere Zeilen umgebrochen.</p>
   <p>Wenn Sie den Bereich nicht kennen, können Sie Ihn per E-Mail erfragen.
   Bitte geben Sie dazu Ihre E-Mail-Adresse ein und klicken Sie auf Weiter
