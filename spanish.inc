@@ -102,6 +102,10 @@ $strUserExistsExplanationStart = '<br/>para obtener su password, haga clic ';
 $strUserExistsExplanationLink = 'aquí';
 $strUserExistsExplanationEnd = ' para ir a la página donde puede pedir su ubicación personal';
 $strExplainBlacklist 	= 'El e-mail que ingrese aquí será registrada en nuestra base de datos con el único propósito de bloquear cualquier correo enviado desde este sistema.';
+  
+$strUserExistsResubscribe = 'Ya existe un usuario con ese e-mail';
+$strUserExistsResubscribeExplanation = 'Ingrese a sus <a href="%s">preferencias</a> para actualizar sus datos.';
+
 $strForwardTitle 		= 'Reenviar el mensaje a otra persona';
 $strForwardSubtitle 	= 'Reenviando el mensaje con asunto ';
 $strForwardEnterEmail 	= 'Por favor, ingrese un mail válido al que reenviar este mensaje';
