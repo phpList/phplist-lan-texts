@@ -27,8 +27,7 @@ $strCheckbox            = 'Kjo fushë është e kërkuar: ';
 #$strThanks              = 'Dear [FIRST NAME], <br/>Thank you for subscribing to our lists.';
 $strThanks              = 'Faleminderit që u abonuat për buletinin tonë informativ.';
 # the EmailConfirmation message can contain placeholders
-#$strEmailConfirmation   = 'Your email [email] has been added to our system. You will be e-mailed shortly with confirmation of the lists you 
-have subscribed to.';
+#$strEmailConfirmation   = 'Your email [email] has been added to our system. You will be e-mailed shortly with confirmation of the lists you have subscribed to.';
 $strEmailConfirmation   = 'Adresa juaj e emailit është shtuar në emailin tonë. Ju do të merrni një mesazh me kërkesën për të konfirmuar 
 anëtarësinë tuaj. Ju lutemi të siguroheni që të klikoni linkun në email për të konfirmuar abonimin në buletinin informativ.';
 $strEmailFailed          = 'Na vjen keq, por dërgimi i mesazhit për të kërkuar konfirmimin tuaj dështoi. Ju lutemi klikoni "Reload" për të 
