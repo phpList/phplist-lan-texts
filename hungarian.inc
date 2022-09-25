@@ -122,4 +122,7 @@ $strForwardFooter = 'Ezt az üzenetet [FORWARDEDBY] továbbította Önnek.
   A hírlevél megrendeléséhez keresse fel';
 $strForward = 'Továbbítás';
 $strFwd = 'Fwd'; # short version of forward for email subject
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

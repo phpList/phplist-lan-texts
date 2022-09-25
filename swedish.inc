@@ -134,4 +134,7 @@ $strForwardFooter = 'Detta meddelande är vidarebefordrat till dig av [FORWARDED
   För att anmäla dig kan du gå till';
 $strForward = 'Vidarebefordra';
 $strFwd = 'Fwd'; # short version of forward for email subject
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

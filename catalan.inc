@@ -119,4 +119,7 @@
       Per a subscriure\'s heu d\'anar a ';
     $strForward          = 'Reenviar';
     $strFwd             = 'Fwd'; # short version of forward for e-mail subject
-    ?>
+ 
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

@@ -127,4 +127,7 @@ $strUserExistsResubscribe = 'Diese E-Mail ist bereits registriert.';
 $strUserExistsResubscribeExplanation = 'Besuchen Sie die <a href="%s"> Voreinstellungsseite </a>, um Ihre persönlichen Angaben zu überprüfen.';
 $strContinue            = 'Weiter';
 $strContactAdmin = 'Listenadministrator kontaktieren';
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

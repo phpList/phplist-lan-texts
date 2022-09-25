@@ -123,4 +123,7 @@ $strForwardFooter 			= "Questo messaggio ti &egrave; stato inoltrato da [FORWARD
 $strForward 				= 'Inoltra';
 $strFwd 					= 'Fwd'; # short version of forward for email subject
 $strContactAdmin = 'Contattare l\'amministratore di questo sistema';
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

@@ -140,4 +140,7 @@ $strForwardFooter = 'Ce message vous a été transféré par [FORWARDEDBY].
 $strForward = 'Faire Suivre';
 $strFwd = 'Tr'; # short version of forward for email subject
 $strContactAdmin = 'Contacter l’administrateur';
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

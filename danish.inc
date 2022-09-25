@@ -133,3 +133,7 @@ $strForwardFooter = 'Denne besked er blevet videresendt til dig fra [FORWARDEDBY
   For at tilmelde dig nyhedsbrevet gå til';
 $strForward = 'Videresend';
 $strFwd = 'FW'; # kort udgave af "videresend" i e-mailens emnefelt
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

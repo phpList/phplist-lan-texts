@@ -114,4 +114,6 @@ $strForwardFooter = 'Hierdie boodskap is aangestuur aan u vanaf [FORWARDEDBY].
   Om aanteteken gaan na';
 $strForward = 'Aanstuur';
 $strFwd = 'Fwd'; # short version of forward for email subject
-?>
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

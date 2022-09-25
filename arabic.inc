@@ -134,4 +134,8 @@ $strForwardFooter = 'هذه الرسالة تم تمريرها لك من قبل 
   للاشتراك بهذه القائمة البريدية إذهب إلى';
 $strForward = 'تمرير';
 $strFwd = 'تمرير'; # نسخة قصيرة مما تم تمريره للموضوع البريدي.
-?>
+
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

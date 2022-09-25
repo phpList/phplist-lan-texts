@@ -114,4 +114,7 @@ $strForwardFooter = 'Denne meldingen er videresendt deg av [FORWARDEDBY].
   For å abonnere på dette nyhetsbrevet, gå til';
 $strForward = 'Videresend';
 $strFwd = 'Videresend'; # short version of forward for email subject
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

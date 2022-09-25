@@ -122,4 +122,6 @@ $strForward = 'Jatka';
 $strFwd = 'Fwd'; # Viestin otsikko
 
 
-?>
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

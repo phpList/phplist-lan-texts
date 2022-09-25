@@ -112,4 +112,7 @@ $strForwardFooter = 'See kiri on edastatud sulle [FORWARDEDBY] poolt.
   Et tellida see uudiskiri, mine ';
 $strForward = 'Edasta';
 $strFwd = 'Fwd'; # short version of forward for email subject
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

@@ -95,4 +95,7 @@ $strUserExistsExplanationStart = '<br/>Pentru a obţine parola apasă ';
 $strUserExistsExplanationLink = 'aici';
 $strUserExistsExplanationEnd = ' pentru a merge la pagina unde poţi să-ţi soliciţi o locaţie personală';
 
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

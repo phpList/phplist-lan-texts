@@ -104,4 +104,7 @@ $strUserExistsExplanationStart = '<br/>Για να ανακτήσετε το σ�
 $strUserExistsExplanationLink = 'εδώ';
 $strUserExistsExplanationEnd = ' για να πάτε στην σελίδα όπου μπορείτε να ζητήσετε την προσωπική σας διεύθυνση';
 
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

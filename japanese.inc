@@ -112,4 +112,7 @@ $strForwardFooter = 'このメッセージは[FORWARDEDBY]によりあなたに�
   このメールマガジンを購読するには以下のアドレスをクリックしてください。';
 $strForward = '転送';
 $strFwd = 'Fwd'; # short version of forward for email subject
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

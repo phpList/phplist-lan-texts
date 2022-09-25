@@ -110,3 +110,7 @@ Para se inscrever nessa lista acesse';
 $strForward = 'Encaminhar';
 $strFwd = 'Enc'; # short version of forward for email subject
 $strConfirmEmail = 'Confirme o seu endereço de e-mail';
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

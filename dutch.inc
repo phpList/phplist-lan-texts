@@ -117,4 +117,7 @@ $strForwardFooter = 'Dit bericht is doorgestuurd naar u door [FORWARDEDBY].
   Om in te schrijven bij deze verzendlijst(en), ga naar';
 $strForward = 'Stuur door';
 $strFwd = 'Fwd'; # short version of forward for email subject
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

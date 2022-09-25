@@ -125,4 +125,7 @@ $strForwardFooter = 'Това съобщение е препратено до В
   За да се абонирате за бюлетин с новини от нас, отидете на ';
 $strForward = 'Препрати';
 $strFwd = 'Препратено:'; # short version of forward for email subject
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

@@ -123,4 +123,7 @@ $strForwardFooter = 'This message has been forwarded to you by [FORWARDEDBY].
   To subscribe to this newsletter go to';
 $strForward = 'Forward';
 $strFwd = 'Fwd'; # short version of forward for email subject
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

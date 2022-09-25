@@ -73,3 +73,7 @@ $strConfirmPassword    = 'Confirme su contraseña';
 $strUnsubscribeRequestForReason = 'Lamentamos que no desee recibir más nuestras listas. Si desea decirnos la razón por favor escriba en el siguiente formulario:';
 $strUnsubscribeFinalInfo = '<br><b>Atención</b>: esta página es para <b>dejar de recibir</b> nuestros mensajes. Si desea cambiar su correo o sus subscripciones, por favor <a href="[PREFERENCESURL]">actualice sus datos</a>.';
 $strYouAreBlacklisted = 'Su dirección de correo está en nuestra lista de "no enviar mensajes".';
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

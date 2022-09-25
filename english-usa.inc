@@ -114,4 +114,7 @@ $strForwardFooter = 'This message has been forwarded to you by [FORWARDEDBY].
 $strForward = 'Forward';
 $strFwd = 'Fwd'; # short version of forward for email subject
 $strContactAdmin = 'Contact the administrator';
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

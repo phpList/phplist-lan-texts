@@ -121,4 +121,7 @@ $strForwardFooter = 'Bu mesaj size [FORWARDEDBY] tarafýndan gönderildi.
 $strForward = 'Ýlet';
 $strFwd = 'Gnd'; # short version of forward for email subject
 
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

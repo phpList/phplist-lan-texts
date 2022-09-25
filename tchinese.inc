@@ -119,4 +119,7 @@ $strForwardFooter = '這封信由 [FORWARDEDBY] 轉寄給您，
   如果您希望訂閱我們的電子報請前往';  
 $strForward = '轉寄';
 $strFwd = '[轉寄]';
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

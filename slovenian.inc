@@ -136,3 +136,7 @@ $strForwardFooter = 'To sporočilo vam je posredoval-a [FORWARDEDBY].
   Če se želite prijaviti na sistem novic, pojdite na';
 $strForward = 'Posreduj';
 $strFwd = 'Posreduj'; # short version of forward for email subject
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

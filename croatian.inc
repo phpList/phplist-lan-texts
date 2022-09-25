@@ -109,3 +109,7 @@ $strForwardAlreadyDone          = 'Ovaj e-mail već je poslan na drugu e-mail ad
 $strForwardFooter               = 'Ovaj ste e-mail dobili od [FORWARDEDBY]. Vi nemate pretplatu na takve sadržaje. Želite li se pretplatiti na takve sadržaje idite na';
 $strForward                     = 'Forward';
 $strFwd                         = 'Fwd'; # short version of forward for email subject
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

@@ -108,4 +108,7 @@
   $strForward = 'Forward';
   $strFwd = 'Fwd'; # short version of forward for email subject
 
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

@@ -117,4 +117,7 @@ $strForwardFooter = 'این پیام توسط [FORWARDEDBY] برای شما با
   برای اشتراک این خبرنامه بروید به';
 $strForward = 'بازفرست';
 $strFwd = 'بازفرست'; # short version of forward for email subject
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

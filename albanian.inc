@@ -156,5 +156,5 @@ $strFwd = 'Fwd'; # versioni i shkurtër për forward
 $strContactAdmin = 'Kontaktoni administratorin';
 
 
-?>
-
+// do not finish with the closing ?> 
+// that may cause issues with redirections

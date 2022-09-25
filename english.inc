@@ -144,4 +144,6 @@ $strForwardForwardingName = 'Please enter your full name';
 $strContactAdmin = 'Contact the administrator';
 
 
-?>
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections

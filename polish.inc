@@ -92,4 +92,7 @@ $strPersonalLocationInfo = '
 ';
 $strPersonalLocationSent = '<h1>Wkrótce zostanie wysłana wiadomość z osobistym identyfikatorem</h1>';
 
-?>
+
+
+// do not finish with the closing ?> 
+// that may cause issues with redirections
