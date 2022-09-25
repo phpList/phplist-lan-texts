@@ -4,7 +4,7 @@
 
 $strCharSet             = 'UTF-8';
 $strName                = 'Name';
-$strAddress             = 'Addresse';
+$strAddress             = 'Adresse';
 $strEmail               = 'E-Mail';
 $strTown                = 'Wohnort';
 $strPostcode            = 'Postfach';
@@ -24,10 +24,10 @@ $strPleaseEnter		= 'Bitte geben Sie ein';
 $strThanks              = 'Danke für die Anmeldung bei unseren Listen.';
 # the EmailConfirmation message can contain placeholders
 #$strEmailConfirmation   = 'Your email [email] has been added to our system. You will be e-mailed shortly with confirmation of the lists you have subscribed to.';
-$strEmailConfirmation   = 'Sie erhalten in kürze eine E-Mail mit der Bestätigung der Listen bei denen Sie sich angemeldet haben.';
+$strEmailConfirmation   = 'Sie erhalten in Kürze eine E-Mail mit der Bestätigung der Listen bei denen Sie sich angemeldet haben.';
 $strEmailFailed		= 'Entschuldigung, aber die E-Mail mit der Bestätigungsanfrage wurde nicht versandt, bitte drücken Sie Aktualisieren und versuchen Sie es nochmals.';
 $strUnsubscribeTitle    = 'Abmelden von unseren Mailinglisten';
-$strUnsubscribeDone     = 'Sie wurden von den Mailinglisten die Sie ausgewählt haben abgemeldet, eine Bestätigung erhalten Sie in kürze per E-Mail.';
+$strUnsubscribeDone     = 'Sie wurden von den Mailinglisten die Sie ausgewählt haben abgemeldet, eine Bestätigung erhalten Sie in Kürze per E-Mail.';
 $strBack                = 'Zurück';
 $strUnsubscribeInfo     = 'Abmelden von einer oder mehreren unserer Mailinglisten';
 $strContinue            = 'Weiter';
@@ -48,12 +48,12 @@ $strPreferTextEmail     = 'Ich bevorzuge E-Mails im Text-Format';
 $strPreferredFormat	= 'Bevorzugtes Format für E-Mails:';
 $strText                = 'Text';
 $strHTML                = 'HTML';
-$strPreferencesTitle    = 'Einstellungen Aendern';
-$strPreferencesInfo     = 'Bitte bestätigen Sie, daß die folgenden Informationen korrekt sind und drücken Sie den Update-Button';
+$strPreferencesTitle    = 'Einstellungen ändern';
+$strPreferencesInfo     = 'Bitte bestätigen Sie, dass die folgenden Informationen korrekt sind und drücken Sie den Update-Button';
 $strUpdatePreferences   = 'Update';
 $strPreferencesEmailChanged = 'Ihre E-Mail wurde geändert. Bitte besuchen Sie den Link, welcher in der E-Mail genannt wird, die Sie an Ihre neue Adresse erhalten.';
-$strPreferencesNotificationSent = 'Sie werden eine E-Mail mit den Aenderungen erhalten';
-$strPreferencesUpdated = 'Danke für Ihre Aenderungen. Wir haben Ihre Informationen aktualisiert.';
+$strPreferencesNotificationSent = 'Sie werden eine E-Mail mit den Änderungen erhalten';
+$strPreferencesUpdated = 'Danke für Ihre Änderungen. Wir haben Ihre Informationen aktualisiert.';
 $strClickHere          = 'Drücken Sie hier';
 $strThisLink           = 'dieser Link';
 $strToUnsubscribe      = 'Um sich aus der Liste auszutragen, besuchen Sie';
@@ -84,11 +84,11 @@ $strPasswordRemindMessage = 'Ihr Passwort lautet ';
 $strPasswordRemindInfo = 'Um Ihr Passwort per E-Mail zu erhalten, geben Sie bitte Ihre E-Mail-Adresse ein und drücken den "'.$strForgotPassword.'" Knopf.';
 $strLogin              = 'Login';
 $strLoginTitle         = 'Bitte geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein';
-$strLoginInfo          = 'Diese Seite benötigt ein Passwort. Bitte geben Sie Ihre E-Mail-Adresse und Ihr Paßwort ein';
+$strLoginInfo          = 'Diese Seite benötigt ein Passwort. Bitte geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein';
 $strPersonalLocationInfo = '
   <p>Diese Seite benötigt eine persönliche Identifikation, welche auf jeder von uns an Sie gesendeten E-Mail angegeben ist.<br/>
-  Wenn Sie diesen Bereich angeklickt haben und diesen Fehler erhalten, vergewissern Sie sich, daß Sie die vollständige Linie in die 
-  Adressezeile Ihres Browsers eigetragen haben. Manchmal ist die Adresse über mehrere Zeilen umgebrochen.</p>
+  Wenn Sie diesen Bereich angeklickt haben und diesen Fehler erhalten, vergewissern Sie sich, dass Sie die vollständige Linie in die
+  Adresszeile Ihres Browsers eingetragen haben. Manchmal ist die Adresse über mehrere Zeilen umgebrochen.</p>
   <p>Wenn Sie den Bereich nicht kennen, können Sie ihn per E-Mail erfragen.
   Bitte geben Sie dazu Ihre E-Mail-Adresse ein und klicken Sie auf Weiter
 ';
