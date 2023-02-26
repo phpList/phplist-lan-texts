@@ -94,5 +94,5 @@ $strPersonalLocationInfo = '
 $strPersonalLocationSent = '<h1>פעולה בוצעה בהצלחה! בקרוב תקבלי אימייל ובו הפרטים שמילאת</h1>';
 
 
-// do not finish with the closing ?> 
+// do not finish with the closing php tag
 // that may cause issues with redirections

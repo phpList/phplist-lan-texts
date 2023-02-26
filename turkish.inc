@@ -123,5 +123,5 @@ $strFwd = 'Gnd'; # short version of forward for email subject
 
 
 
-// do not finish with the closing ?> 
+// do not finish with the closing php tag
 // that may cause issues with redirections

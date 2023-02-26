@@ -115,5 +115,5 @@ $strForwardFooter = 'Hierdie boodskap is aangestuur aan u vanaf [FORWARDEDBY].
 $strForward = 'Aanstuur';
 $strFwd = 'Fwd'; # short version of forward for email subject
 
-// do not finish with the closing ?> 
+// do not finish with the closing php tag
 // that may cause issues with redirections

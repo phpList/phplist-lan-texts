@@ -137,5 +137,5 @@ $strFwd = 'تمرير'; # نسخة قصيرة مما تم تمريره للمو�
 
 
 
-// do not finish with the closing ?> 
+// do not finish with the closing php tag
 // that may cause issues with redirections

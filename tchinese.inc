@@ -121,5 +121,5 @@ $strForward = '轉寄';
 $strFwd = '[轉寄]';
 
 
-// do not finish with the closing ?> 
+// do not finish with the closing php tag
 // that may cause issues with redirections

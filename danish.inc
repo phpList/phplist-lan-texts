@@ -135,5 +135,5 @@ $strForward = 'Videresend';
 $strFwd = 'FW'; # kort udgave af "videresend" i e-mailens emnefelt
 
 
-// do not finish with the closing ?> 
+// do not finish with the closing php tag
 // that may cause issues with redirections

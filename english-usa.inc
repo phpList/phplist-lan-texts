@@ -116,5 +116,5 @@ $strFwd = 'Fwd'; # short version of forward for email subject
 $strContactAdmin = 'Contact the administrator';
 
 
-// do not finish with the closing ?> 
+// do not finish with the closing php tag
 // that may cause issues with redirections

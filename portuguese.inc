@@ -112,5 +112,5 @@ $strFwd = 'Enc'; # short version of forward for email subject
 $strConfirmEmail = 'Confirme o seu endereço de e-mail';
 
 
-// do not finish with the closing ?> 
+// do not finish with the closing php tag
 // that may cause issues with redirections

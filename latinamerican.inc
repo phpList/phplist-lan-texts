@@ -75,5 +75,5 @@ $strUnsubscribeFinalInfo = '<br><b>Atención</b>: esta página es para <b>dejar 
 $strYouAreBlacklisted = 'Su dirección de correo está en nuestra lista de "no enviar mensajes".';
 
 
-// do not finish with the closing ?> 
+// do not finish with the closing php tag
 // that may cause issues with redirections
